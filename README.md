@@ -5,7 +5,7 @@ A responsive React application that allows users to check the **current weather 
 ---
 
 ## 🚀 Live Demo
-🔗 **Deployed on Vercel:** [https://weather-now-application.vercel.app](https://weathernowapplication.vercel.app/)
+🔗 **Deployed on Vercel:** [https://weather-note-app.vercel.app](https://weather-note-app.vercel.app/)
 
 ---
 
