@@ -1,0 +1,17 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-cover bg-center min-h-screen flex justify-center items-center;
+  background-image: url('/cloud-bg.jpg'); /* Replace with your cloud image 
+}*/  
+
+body {
+  background: linear-gradient(to right, #bbdefb, #e3f2fd);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
