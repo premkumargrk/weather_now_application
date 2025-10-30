@@ -1,36 +1,57 @@
-# 🌤️ Weather Now — React + Open-Meteo API
----
+# 🌤️ Weather Now
 
-## 🧠 Overview
-**Weather Now** is a simple and responsive React web app that lets users quickly check real-time weather data for any city in the world.  
-It uses the **Open-Meteo API** for weather forecasts and the **Open-Meteo Geocoding API** for city lookup.
----
-
-## ⚙️ Tech Stack
-- **Frontend:** React + Vite  
-- **Styling:** Bootstrap 5  
-- **API:** [Open-Meteo API](https://open-meteo.com/en/docs)  
-- **Deployment:** CodeSandbox  
-- **Version Control:** GitHub Desktop + GitHub  
+A responsive React application that allows users to check the **current weather conditions** and a **7-day forecast** for any city using the **Open-Meteo API**.
 
 ---
 
-## 🌍 Features
-✅ Search weather by city name  
-✅ Press Enter or click Search button to fetch data  
-✅ Displays:
-- Current temperature 🌡️  
-- Wind speed 💨  
-- Humidity 💧  
-- 7-day forecast 📅  
-✅ Responsive glassmorphic card UI  
-✅ Beautiful cloud background image  
+## 🚀 Live Demo
+🔗 **Deployed on Vercel:** [https://weather-now-application.vercel.app](https://weathernowapplication.vercel.app/)
 
 ---
 
-## Dependencies
+## 💬 Working with AI 
+I collaborated with **ChatGPT (GPT-5)** to plan, build, debug, and refine this project.  
+
+---
+
+## 🧩 Features
+- 🌍 Search for any city worldwide
+- 🌡️ Displays current temperature, humidity, and wind speed
+- 📅 Shows 7-day weather forecast with daily high/low temperatures
+- ☁️ Interactive and responsive card-based UI
+- 🎨 Styled using **Bootstrap** and custom CSS
+- ⚡ Built with **Vite + React.js**
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** React.js (Vite)
+- **Styling:** Bootstrap, CSS
+- **API:** [Open-Meteo API](https://open-meteo.com/)
+- **Deployment:** Vercel
+- **Version Control:** Git & GitHub
+
+---
+
+## 🧠 How It Works
+1. User enters a city name in the search bar.
+2. On pressing `Enter` or clicking **Search**, the app fetches:
+   - Latitude & Longitude (via Open-Meteo Geocoding API)
+   - Current & 7-day forecast weather data (via Open-Meteo API)
+3. Weather details are displayed dynamically in a responsive card layout.
+
+---
+
+## 🧾 Project Setup (for local development)
+
+# Clone the repo
+git clone https://github.com/premkumargrk/weather-now-application.git
+
+# Navigate into the folder
+cd weather-now-application
+
+# Install dependencies
 npm install
 
-## run the code in local 
+# Run the app locally
 npm run dev
-
